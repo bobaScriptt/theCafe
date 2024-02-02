@@ -207,6 +207,8 @@ Tutorial: https://youtu.be/_sgF8I-Q1Gs */
 }
 
 .aboutMeChild {
+  font-size: var(--fs-md);
+  font-family: 'Single Day', cursive;
   padding-left: 45px;
   padding-right: 45px;
 }
