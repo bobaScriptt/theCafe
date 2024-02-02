@@ -98,7 +98,7 @@ Tutorial: https://youtu.be/_sgF8I-Q1Gs */
   -webkit-animation-name: animatebottom;
   -webkit-animation-duration: 3s;
   animation-name: animatebottom;
-  animation-duration: s;
+  animation-duration: 3s; 
 }
 @-webkit-keyframes animatebottom {
   from {
@@ -123,25 +123,27 @@ Tutorial: https://youtu.be/_sgF8I-Q1Gs */
 }
 
 #downArrow {
-  position: relative;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
 
   /* breathing */
-  animation: breathe 2s ease-in-out infinite;
+  animation: animatebottom 7s, breathe 2s ease-in-out infinite;
 }
 /* Define the keyframes for the animation */
 @keyframes breathe {
+  
   0%, 100% {
-    /* Scale down the element slightly */
-    transform: translate(-50%, -50%) scale(0.95);
+    /* cale down the element slightly */
+    transform: translate(-50%, -50%) scale(0.90);
   }
   50% {
     /* Scale up the element slightly */
-    transform: translate(-50%, -50%) scale(1.05);
+    transform: translate(-50%, -50%) scale(0.95);
   }
 }
+
+
 
 /************************/
 /* column above and below .intro-custom to vertically center text. */
