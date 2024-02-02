@@ -206,8 +206,12 @@ Tutorial: https://youtu.be/_sgF8I-Q1Gs */
   color: #7a7766;
 }
 
+.aboutMeChild {
+  padding-left: 45px;
+  padding-right: 45px;
+}
 /* the text inside */
-.portfolioChild{
+.portfolioChild {
   font-size: var(--fs-md);
   padding: 45px;
 }
@@ -234,7 +238,7 @@ Tutorial: https://youtu.be/_sgF8I-Q1Gs */
 
 /************************/
 /* About-Me Section */
-.entire-about-custom {
+.theDetailsParent {
   color: #fff;
   background-image: url(images/about-me-bg3.png);
   background-size: cover;
@@ -246,7 +250,7 @@ Tutorial: https://youtu.be/_sgF8I-Q1Gs */
 }
 
 /* Text inside */
-.about-custom {
+.theDetailsChild {
   font-size: var(--fs-md);
   padding: 45px;
 }
@@ -254,18 +258,15 @@ Tutorial: https://youtu.be/_sgF8I-Q1Gs */
 /************************/
 /* Hero Cherry1 Section */
 
-.materialHeader {
+.portfolioChildHeader {
   background-color: #bdcba4;
   padding: 15px;
   font-family: "Righteous", cursive;
   font-size: var(--fs-lg);
   color: white;
-  border-top: 5px solid white;
 }
-.downloadContent {
 
-}
-.EXAMPLE{
+.EXAMPLE {
   color: white;
 }
 /************************/
