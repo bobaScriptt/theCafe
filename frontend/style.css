@@ -207,8 +207,7 @@ Tutorial: https://youtu.be/_sgF8I-Q1Gs */
 }
 
 /* the text inside */
-.resume-custom {
-  margin-top: -55px;
+.portfolioChild{
   font-size: var(--fs-md);
   padding: 45px;
 }
@@ -264,7 +263,10 @@ Tutorial: https://youtu.be/_sgF8I-Q1Gs */
   border-top: 5px solid white;
 }
 .downloadContent {
-  padding: 15px;
+
+}
+.EXAMPLE{
+  color: white;
 }
 /************************/
 
